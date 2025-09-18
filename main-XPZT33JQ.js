@@ -49359,7 +49359,7 @@ var _g = (() => {
         },
         dependencies: [St, Me],
         styles: [
-          ".trusted-by-container[_ngcontent-%COMP%]{position:absolute;background:#d5a039;border:3px solid #FFE6B7;width:465px;height:80px;bottom:20px;left:252px;z-index:1;overflow:hidden;border-radius:8px}@media screen and (max-width: 1600px){.trusted-by-container[_ngcontent-%COMP%]{left:145px}}@media screen and (max-width: 576px){.trusted-by-container[_ngcontent-%COMP%]{position:relative;width:100%;bottom:unset;left:unset;height:19vw}.trusted-by-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{image-rendering:pixelated}}.trusted-by-container[_ngcontent-%COMP%]   .nut[_ngcontent-%COMP%]{position:absolute}.trusted-by-container[_ngcontent-%COMP%]   .nut.top[_ngcontent-%COMP%]{top:5px}.trusted-by-container[_ngcontent-%COMP%]   .nut.bottom[_ngcontent-%COMP%]{bottom:5px}.trusted-by-container[_ngcontent-%COMP%]   .nut.left[_ngcontent-%COMP%]{left:5px}.trusted-by-container[_ngcontent-%COMP%]   .nut.right[_ngcontent-%COMP%]{right:5px}.trusted-by-container[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{font-size:13.57px;-webkit-text-stroke:1px white;paint-order:stroke fill;padding-block:7px 2px}.trusted-by-container[_ngcontent-%COMP%]   .scroller[_ngcontent-%COMP%]{margin-left:5px;animation:_ngcontent-%COMP%_scrollerAnimation 20s infinite linear}.trusted-by-container[_ngcontent-%COMP%]   .scroller[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{max-width:150px;max-height:45px}@keyframes _ngcontent-%COMP%_scrollerAnimation{0%{transform:translate(0)}to{transform:translate(-1542px)}}",
+          ".trusted-by-container[_ngcontent-%COMP%]{position:absolute;background:#d5a039;border:3px solid #FFE6B7;width:465px;height:80px;bottom:20px;left:252px;z-index:1;overflow:hidden;border-radius:8px}@media screen and (max-width: 1600px){.trusted-by-container[_ngcontent-%COMP%]{left:145px}}@media screen and (max-width: 576px){.trusted-by-container[_ngcontent-%COMP%]{position:relative;width:100%;bottom:unset;left:unset;height:45px}.trusted-by-container[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{image-rendering:pixelated}}.trusted-by-container[_ngcontent-%COMP%]   .nut[_ngcontent-%COMP%]{position:absolute}.trusted-by-container[_ngcontent-%COMP%]   .nut.top[_ngcontent-%COMP%]{top:5px}.trusted-by-container[_ngcontent-%COMP%]   .nut.bottom[_ngcontent-%COMP%]{bottom:5px}.trusted-by-container[_ngcontent-%COMP%]   .nut.left[_ngcontent-%COMP%]{left:5px}.trusted-by-container[_ngcontent-%COMP%]   .nut.right[_ngcontent-%COMP%]{right:5px}.trusted-by-container[_ngcontent-%COMP%]   p[_ngcontent-%COMP%]{font-size:13.57px;-webkit-text-stroke:1px white;paint-order:stroke fill;padding-block:7px 2px}.trusted-by-container[_ngcontent-%COMP%]   .scroller[_ngcontent-%COMP%]{margin-left:5px;animation:_ngcontent-%COMP%_scrollerAnimation 20s infinite linear}.trusted-by-container[_ngcontent-%COMP%]   .scroller[_ngcontent-%COMP%]   img[_ngcontent-%COMP%]{max-width:150px;max-height:45px}@keyframes _ngcontent-%COMP%_scrollerAnimation{0%{transform:translate(0)}to{transform:translate(-1542px)}}",
         ],
       });
     }
@@ -53573,7 +53573,7 @@ var OY = (e) => ({ connected: e }),
               "loading",
               "lazy",
             ],
-            [1, "widget_frame"],
+            [1, "widget_frame", "section-none"],
             [3, "miniMode"],
             [1, "col-12", "d-block", "d-md-none", "commonSec"],
             [
@@ -56367,14 +56367,6 @@ var XP = (() => {
             "font-tertiary",
           ],
           [
-            "src",
-            "./assets/images/svg-icons/arrow-down.svg",
-            1,
-            "dropdown",
-            3,
-            "svgStyle",
-          ],
-          [
             "class",
             "dropdown-menu dropdown-menu-right",
             "role",
@@ -56411,14 +56403,6 @@ var XP = (() => {
           [1, "btn", "btn-primary", "section-none", 3, "click"],
           [1, "menu-overlay"],
           [1, "sub-menu", "pull-left", 3, "ngClass"],
-          [
-            1,
-            "menuSection",
-            "d-flex",
-            "flex-column",
-            "justify-content-start",
-            "align-items-center",
-          ],
           [
             1,
             "d-flex",
@@ -56506,6 +56490,7 @@ var XP = (() => {
             "d-flex",
             "align-items-center",
             "justify-content-between",
+            "section-none"
           ],
           ["loading", "lazy", 1, "flag-icon", 3, "src", "alt"],
           [
