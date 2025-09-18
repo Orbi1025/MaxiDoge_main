@@ -53587,6 +53587,7 @@ var OY = (e) => ({ connected: e }),
               "coinsult",
               "d-none",
               "d-lg-block",
+              "section-none"
             ],
             ["src", "/assets/images/svg-icons/coinsult.svg"],
             [
@@ -53600,6 +53601,7 @@ var OY = (e) => ({ connected: e }),
               "solid-proof",
               "d-none",
               "d-lg-block",
+              "section-none"
             ],
             ["src", "/assets/images/svg-icons/solid-proof.svg"],
           ],
