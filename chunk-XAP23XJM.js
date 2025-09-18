@@ -4336,7 +4336,7 @@ var xl = $`div{background-color:var(--wcm-color-bg-2);padding:10px 20px 15px 20p
               : null
           } ${t && e ? "and" : null} ${
             e
-              ? d`<a href="${e}" target="_blank" rel="noopener noreferrer">Privacy Policy</a>`
+              ? d`<a href="${e}" target="_blank" rel="noopener noreferrer">Dextools</a>`
               : null
           }</wcm-text></div>`
         : null;

@@ -49516,7 +49516,7 @@ var $i,
         let i = this.dom.createElement("link");
         (i.rel = "alternate"),
           (i.hreflang = "x-default"),
-          (i.href = `${this.base}${this.onStaking ? "/en/staking" : ""}`),
+          (i.href = `${this.base}${this.onStaking ? "" : ""}`),
           this.dom.head.appendChild(i);
       }
       addFaqSchema() {
@@ -53893,7 +53893,7 @@ var jP = (() => {
         });
     }
     buyNowClick() {
-      this.eventService.showBuyWidget("home");
+      window.open('https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon', '_blank');
     }
     static {
       this.ɵfac = function (i) {
@@ -56318,19 +56318,6 @@ var XP = (() => {
             "ngFor",
             "ngForOf",
           ],
-          ["title", "staking", 1, "navMenu", 3, "click", "routerLink"],
-          [
-            "href",
-            "/assets/documents/whitepaper.pdf?v2",
-            "target",
-            "_blank",
-            "title",
-            "whitepaper",
-            1,
-            "navMenu",
-            3,
-            "click",
-          ],
           [
             1,
             "menu-item",
@@ -56359,7 +56346,7 @@ var XP = (() => {
             "ngForOf",
           ],
           ["class", "btn btn-primary ms-2", 3, "click", 4, "ngIf"],
-          ["dropdown", "", 1, "btn-group", "language", "ms-2"],
+          ["dropdown", "", 1, "btn-group", "language", "ms-2", "section-none"],
           [
             "dropdownToggle",
             "",
@@ -56508,7 +56495,7 @@ var XP = (() => {
             "solid-proof",
           ],
           ["src", "/assets/images/svg-icons/solid-proof.svg", 3, "svgStyle"],
-          ["dropdown", "", 1, "btn-group", "language", "my-3"],
+          ["dropdown", "", 1, "btn-group", "language", "my-3", "section-none"],
           [
             "dropdownToggle",
             "",
@@ -56589,11 +56576,11 @@ var QP = (() => {
         (this.footerLinks = [
           {
             title: "footer_navigation.cookies",
-            link: "/assets/documents/cookie-policy.pdf",
+            link: "https://dexscreener.com/ethereum/0xcomingsoon",
           },
           {
             title: "footer_navigation.privacy",
-            link: "/assets/documents/privacy-policy.pdf",
+            link: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
           },
         ]),
         (this.subscription = this.translate.onLangChange.subscribe((i) => {
