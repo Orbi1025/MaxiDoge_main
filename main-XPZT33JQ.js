@@ -53895,7 +53895,7 @@ var jP = (() => {
         });
     }
     buyNowClick() {
-      window.open('https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x6e90d9ffdca4d27f8bbed2fcd501570ff3936a29', '_blank');
+      window.open('https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon', '_blank');
     }
     static {
       this.ɵfac = function (i) {
@@ -56107,24 +56107,24 @@ var XP = (() => {
           {
             img: "assets/images/svg-icons/social-icons/telegram-black.svg",
             alt: "Telegram",
-            link: "https://t.me/MaxiDoge_MAXI",
+            link: "https://t.me/MaxiDoge_meme",
           },
           {
             img: "assets/images/svg-icons/social-icons/twitter-black.svg",
             alt: "Twitter",
-            link: "https://x.com/MaxiDoge_MAXI",
+            link: "https://x.com/MaxiDoge_meme",
           },
         ]),
         (this.socialMobile = [
           {
             img: "assets/images/svg-icons/social-icons/telegram.svg",
             alt: "Telegram",
-            link: "https://t.me/MaxiDoge_MAXI",
+            link: "https://t.me/MaxiDoge_meme",
           },
           {
             img: "assets/images/svg-icons/social-icons/twitter.svg",
             alt: "Twitter",
-            link: "https://x.com/MaxiDoge_MAXI",
+            link: "https://x.com/MaxiDoge_meme",
           },
         ]),
         this.subscriptions.push(
@@ -56563,11 +56563,11 @@ var QP = (() => {
         (this.footerLinks = [
           {
             title: "footer_navigation.cookies",
-            link: "https://dexscreener.com/ethereum/0x6e90d9ffdca4d27f8bbed2fcd501570ff3936a29",
+            link: "https://dexscreener.com/ethereum/0xcomingsoon",
           },
           {
             title: "footer_navigation.privacy",
-            link: "https://www.dextools.io/app/en/ether/pair-explorer/0x6e90d9ffdca4d27f8bbed2fcd501570ff3936a29",
+            link: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
           },
         ]),
         (this.subscription = this.translate.onLangChange.subscribe((i) => {
@@ -56614,7 +56614,7 @@ var QP = (() => {
             "mb-4",
             "gap-3",
           ],
-          ["href", "https://t.me/MaxiDoge_MAXI", "target", "_blank"],
+          ["href", "https://t.me/MaxiDoge_meme", "target", "_blank"],
           [
             "src",
             "/assets/images/svg-icons/social-icons/telegram.svg",
@@ -56625,7 +56625,7 @@ var QP = (() => {
             1,
             "icon",
           ],
-          ["href", "https://x.com/MaxiDoge_MAXI", "target", "_blank"],
+          ["href", "https://x.com/MaxiDoge_meme", "target", "_blank"],
           [
             "src",
             "/assets/images/svg-icons/social-icons/twitter.svg",
