@@ -53895,7 +53895,7 @@ var jP = (() => {
         });
     }
     buyNowClick() {
-      window.open('https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0xcomingsoon', '_blank');
+      window.open('https://app.uniswap.org/#/swap?inputCurrency=eth&outputCurrency=0x9796b9e60587495d27eb251a832c1d397fc2e028', '_blank');
     }
     static {
       this.ɵfac = function (i) {
@@ -56563,11 +56563,11 @@ var QP = (() => {
         (this.footerLinks = [
           {
             title: "footer_navigation.cookies",
-            link: "https://dexscreener.com/ethereum/0xcomingsoon",
+            link: "https://dexscreener.com/ethereum/0x9796b9e60587495d27eb251a832c1d397fc2e028",
           },
           {
             title: "footer_navigation.privacy",
-            link: "https://www.dextools.io/app/en/ether/pair-explorer/0xcomingsoon",
+            link: "https://www.dextools.io/app/en/ether/pair-explorer/0x9796b9e60587495d27eb251a832c1d397fc2e028",
           },
         ]),
         (this.subscription = this.translate.onLangChange.subscribe((i) => {
